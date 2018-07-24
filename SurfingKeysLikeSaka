@@ -4,10 +4,10 @@ Hints.characters = "ajskdlghewioruvncm";
 settings.scrollStepSize = 300;
 settings.smoothScroll = true;
 settings.hintAlign = "left";
-settings.hintsThreshold = 50;
+settings.hintsThreshold = 200;
 settings.showModeStatus = true;
 settings.omnibarSuggestion = true;
-settings.omnibarMaxResults = 16;
+settings.omnibarMaxResults = 8;
 Hints.style('border: solid 3px #3a5f82; color#ffffff; background-color: #3a5f82; font-size: 16pt;')
 // Hints.style('border: solid 3px #3a5f82; color:#fff; background: initial; background-color: #3a5f82; font-size: 16pt;');
 // Hints.style("border: solid 8px #C38A22;padding: 1px;font-size=13pt;background: #e39913","text");
