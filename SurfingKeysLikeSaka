@@ -1,6 +1,7 @@
 map("c", "S");
 map("C","D");
 Hints.characters = "ajskdlghewioruvncm";
+settings.allow
 settings.scrollStepSize = 400;
 settings.hintAlign = "left";
 settings.hintsThreshold = 100;
