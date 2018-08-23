@@ -1,11 +1,14 @@
 map("c", "S");
 map("C","D");
 Hints.characters = "ajskdlghewioruvncm";
-settings.allow
+settings.stealFocusOnLoad = true;
+settings.enableAutoFocus = true;
 settings.scrollStepSize = 400;
 settings.hintAlign = "left";
 settings.hintsThreshold = 100;
 settings.repeatThreshold = 100;
+settings.focusOnSaved = true;
+settings.modeAfterYank = "Normal";
 settings.showModeStatus = true;
 settings.omnibarSuggestion = true;
 settings.omnibarMaxResults = 8;
