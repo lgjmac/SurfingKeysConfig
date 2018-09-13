@@ -2,7 +2,7 @@ map("c", "S");
 map("C","D");
 Hints.characters = "ajskdlghewioruvncm";
 settings.stealFocusOnLoad = true;
-settings.enableAutoFocus = true;
+settings.enableAutoFocus = false;
 settings.scrollStepSize = 400;
 settings.hintAlign = "left";
 settings.hintsThreshold = 100;
