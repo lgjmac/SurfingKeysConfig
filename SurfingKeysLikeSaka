@@ -1,5 +1,6 @@
 map("c", "S");
 map("C","D");
+map("a", "gf");
 Hints.characters = "ajskdlghewioruvncm";
 settings.stealFocusOnLoad = true;
 settings.enableAutoFocus = false;
