@@ -1,9 +1,9 @@
+map("a", "gf");
 map("c", "S");
 map("C","D");
-map("a", "gf");
 Hints.characters = "ajskdlghewioruvncm";
 settings.stealFocusOnLoad = true;
-settings.enableAutoFocus = false;
+settings.enableAutoFocus = true;
 settings.scrollStepSize = 400;
 settings.hintAlign = "left";
 settings.hintsThreshold = 100;
@@ -14,25 +14,10 @@ settings.showModeStatus = true;
 settings.omnibarSuggestion = true;
 settings.omnibarMaxResults = 8;
 settings.smoothScroll = true;
+aceVimMap('jk', '<Esc>', 'insert');
+aceVimMap('jj', '<Esc>', 'insert');
 
 // styles
 Hints.style('border: solid 3px #3a5f82; color:#fff; background: initial; background-color: #3a5f82; font-size: 10pt;');
 Visual.style('marks', 'background-color: #89a1e2;');
 Visual.style('cursor', 'background-color: #6590b7;');
-
-addSearchAlias('q', 'github', 'http://github.com/search?q=');
-mapkey('oq', 'Search Selected with github', function() {
-    searchSelectedWith("http://github.com/search?q=");
-});
-vmapkey('oq', 'Search Selected with github', function() {
-    searchSelectedWith("http://github.com/search?q=");
-});
-
-addSearchAlias('s', 'stackoverflow', 'http://stackoverflow.com/search?q=');
-mapkey('os', 'Search Selected with stackoverflow', function() {
-    searchSelectedWith("http://stackoverflow.com/search?q=");
-});
-vmapkey('os', 'Search Selected with stackoverflow', function() {
-    searchSelectedWith("http://stackoverflow.com/search?q=");
-});
-
